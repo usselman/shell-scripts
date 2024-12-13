@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This is a script to filter and remove all files that are NOT 16-bit, 44.1khz wavs.
+# Useful for old samplers such as the MPC1000 or the Octatrack.
+
 # Ensure a root directory is provided as an argument
 if [ -z "$1" ]; then
   echo "Usage: $0 <root_directory>"
